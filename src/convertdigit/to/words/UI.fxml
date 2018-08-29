@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="287.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="convertdigit.to.words.UIController">
+   <children>
+      <TextField fx:id="Digits" layoutX="10.0" layoutY="236.0" onKeyReleased="#Convert" prefHeight="25.0" prefWidth="252.0" promptText="Enter Digit" />
+      <Label layoutX="10.0" layoutY="316.0" prefHeight="17.0" prefWidth="250.0" style="-fx-font-weight: bold;" text="Just a Little 'Hello World ' Program " />
+       <Label layoutX="10.0" layoutY="346.0" prefHeight="17.0" prefWidth="250.0" style="-fx-font-weight: bold;" text="By James Chukwuedo" />
+      <TextArea fx:id="Amountinwords" layoutX="14.0" layoutY="25.0" prefHeight="175.0" prefWidth="243.0" promptText="Amount in words" text="" wrapText="true" />
+      <Label layoutX="11.0" layoutY="212.0" prefHeight="17.0" prefWidth="250.0" style="-fx-font-weight: bold;" text="Enter Digit" />
+   </children>
+</AnchorPane>
